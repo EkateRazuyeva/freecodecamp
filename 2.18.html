@@ -7,12 +7,42 @@
     <title>Document</title>
   </head>
   <body>
-    <h2>CatPhotoApp</h2>
-
-    <p>
-      Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
-      attack your ankles chase the red dot, hairball run catnip eat the grass
-      sniff.
-    </p>
+    <style>
+      .injected-text {
+        margin-bottom: -25px;
+        text-align: center;
+      }
+    
+      .box {
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        text-align: center;
+      }
+    
+      .yellow-box {
+        background-color: yellow;
+        padding: 10px;
+      }
+    
+      .red-box {
+        background-color: crimson;
+        color: #fff;
+        padding: 20px;
+        margin: -15px;
+      }
+    
+      .blue-box {
+        background-color: blue;
+        color: #fff;
+        padding: 20px;
+        margin: -15px;
+      }
+    </style>
+    
+    <div class="box yellow-box">
+      <h5 class="box red-box">padding</h5>
+      <h5 class="box blue-box">padding</h5>
+    </div>
   </body>
 </html>
